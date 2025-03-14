@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Executar Notepad</title>
+    <HTA:APPLICATION APPLICATIONNAME="ExecutarNotepad" />
+</head>
+<body>
+    <script language="VBScript">
+        Set objShell = CreateObject("WScript.Shell")
+        objShell.Run "notepad.exe"
+        Set objShell = Nothing
+    </script>
+</body>
+</html>
